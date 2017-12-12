@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="300dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CorpsIdeaL"
+            android:textSize="20dp"
+            android:textColor="#ff972e" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="application d'entarinement sportif vous aider pour obtenir le corps ideal avec les fonctionalités suivantes qui se trouvent dans le menu de l'application"
+            android:textColor="#000000" />
+        </LinearLayout>
+            <!-- Entrainement-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entarainement"
+        android:textColor="#ff972e"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Il faut choisissez l'organe cible par l'entrainement et cliquez sur son nom puis une interface contient une liste des exercices sera affiché, choisissez un exercice et commencez votre entrainement."
+        android:textColor="#000000" />
+
+            <!-- Regime-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Régime alimentaire"
+        android:textColor="#ff972e"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consulter et suivre un régime alimentaire selon votre besoin."
+        android:textColor="#000000" />
+
+    <!-- Indice Corporelle-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indice corporelle"
+        android:textColor="#ff972e"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculez  et suivrez vos caractéristiques corporelle chaque période de temps."
+        android:textColor="#000000" />
+
+    <!-- Charge Financiére-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Charge financiére"
+        android:textSize="20dp"
+        android:textColor="#ff972e" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vous pouvez controller vos dépenses quotidiennes avec l&apos;option &quot;charge financiére&quot;, il faut accéder à l&apos;interface et cliquer sur le bouton ajouter pour l&apos;insertion d&apos;un dépense et une longue clique sur le dépense pour la modification ou la suppression."
+        android:textColor="#000000" />
+
+
+      <!-- Evénement-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Evénement"
+        android:textColor="#ff972e"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vous pouvez consulter les événement sportifs au tour de monde. "
+        android:textColor="#000000" />
+
+    <!-- Actualité-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actualité"
+        android:textColor="#ff972e"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vous pouvez consulter les nouveautés de sports avec cette fonctionnalité."
+        android:textColor="#000000" />
+
+    <!-- Salle de sport-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salle de sport"
+        android:textColor="#ff972e"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CorpsIdeaL vous permet de localiser les salles de sport le plus proche à vous."
+        android:textColor="#000000" />
+
+    <!-- achat en ligne-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Achat en ligne"
+        android:textColor="#ff972e"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CorpsIdeaL vous donnez une liste des site d&apos;achat en ligne des produits alimentaires et des accesoires sportifs."
+        android:textColor="#000000" />
+
+
+</LinearLayout>
+</ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.allah.phpproject.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:background="@drawable/logo_background"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/titre"
+                android:id="@+id/txtTitre"
+                android:textSize="30dp"
+                android:textColor="#000000"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:editable="false"
+                android:id="@+id/edtitre_event"/>
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/date"
+                android:id="@+id/txtDate"
+                android:textSize="30dp"
+                android:textColor="#000000"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:editable="false"
+                android:id="@+id/eddate_event"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/heure"
+                android:id="@+id/txtHeure"
+                android:textSize="30dp"
+                android:textColor="#000000"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:editable="false"
+                android:id="@+id/edheure_event"/>
+
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/adresse"
+                android:id="@+id/txtAdr"
+                android:textSize="30dp"
+                android:textColor="#000000"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:editable="false"
+                android:id="@+id/edadr_event"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/organiseur"
+                android:id="@+id/txtorg"
+                android:textSize="30dp"
+                android:textColor="#000000"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:editable="false"
+                android:id="@+id/edorg_event"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/description"
+                android:id="@+id/txtDesc"
+                android:textSize="30dp"
+                android:textColor="#000000"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:editable="false"
+                android:id="@+id/eddesc_event"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

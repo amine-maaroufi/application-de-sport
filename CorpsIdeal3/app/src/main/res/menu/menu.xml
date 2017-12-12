@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="always"/>
+
+    <item android:title="à propos"
+        android:id="@+id/apropos"
+        android:icon="@drawable/logo_apropos"
+        app:showAsAction="always"/>
+    <item android:title="Déconnexion"
+        android:id="@+id/deconnexion"
+        app:showAsAction="never"/>
+
+</menu>

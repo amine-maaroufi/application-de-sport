@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.allah.corpsideal.Main_Corps_Humain_2"
+    android:background="@drawable/facette2">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:id="@+id/btn_cou"
+        android:layout_x="250dp"
+        android:layout_y="92dp"
+        android:alpha="0" />
+
+    <Button
+        android:layout_width="101dp"
+        android:layout_height="63dp"
+        android:id="@+id/btn_epaule"
+        android:layout_x="24dp"
+        android:layout_y="85dp"
+        android:alpha="0" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:id="@+id/btn_triceps"
+        android:layout_x="28dp"
+        android:layout_y="155dp"
+        android:alpha="0" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:id="@+id/btn_fessiers"
+        android:layout_x="38dp"
+        android:layout_y="303dp"
+        android:alpha="0"
+        android:allowUndo="false" />
+
+    <Button
+        android:layout_width="105dp"
+        android:layout_height="66dp"
+        android:id="@+id/btn_mollet"
+        android:layout_x="239dp"
+        android:layout_y="386dp"
+        android:alpha="0"
+        android:allowUndo="false" />
+
+    <Button
+        android:layout_width="103dp"
+        android:layout_height="63dp"
+        android:id="@+id/btn_lambaire"
+        android:layout_x="231dp"
+        android:layout_y="310dp"
+        android:alpha="0" />
+
+    <Button
+        android:layout_width="73dp"
+        android:layout_height="77dp"
+        android:id="@+id/btn_retour"
+        android:layout_x="60dp"
+        android:layout_y="419dp"
+        android:background="@drawable/logo_return" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:id="@+id/btn_dorsaux"
+        android:layout_x="254dp"
+        android:layout_y="167dp"
+        android:alpha="0" />
+</AbsoluteLayout>

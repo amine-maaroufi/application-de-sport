@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.allah.corpsideal.Main_Corps_Humain"
+    android:background="@drawable/facette1">
+
+
+
+    <Button
+        android:layout_width="108dp"
+        android:layout_height="66dp"
+        android:id="@+id/btn_pectoraux"
+        android:layout_x="227dp"
+        android:layout_y="103dp"
+        android:alpha="0" />
+
+    <Button
+        android:layout_width="99dp"
+        android:layout_height="63dp"
+        android:id="@+id/btn_biceps"
+        android:layout_x="21dp"
+        android:layout_y="142dp"
+        android:alpha="0" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:id="@+id/btn_oblique"
+        android:layout_x="37dp"
+        android:layout_y="217dp"
+        android:alpha="0" />
+
+    <Button
+        android:layout_width="101dp"
+        android:layout_height="71dp"
+        android:id="@+id/btn_avantbras"
+        android:layout_x="248dp"
+        android:layout_y="212dp"
+        android:alpha="0" />
+
+    <Button
+        android:layout_width="114dp"
+        android:layout_height="67dp"
+        android:id="@+id/btn_quadriceps"
+        android:layout_x="225dp"
+        android:layout_y="330dp"
+        android:alpha="0" />
+
+    <Button
+        android:layout_width="109dp"
+        android:layout_height="68dp"
+        android:id="@+id/btn_abdo"
+        android:layout_x="28dp"
+        android:layout_y="330dp"
+        android:alpha="0" />
+
+    <Button
+        android:layout_width="73dp"
+        android:layout_height="77dp"
+        android:id="@+id/btn_undo"
+        android:layout_x="60dp"
+        android:layout_y="419dp"
+        android:background="@drawable/logo_undo" />
+</AbsoluteLayout>

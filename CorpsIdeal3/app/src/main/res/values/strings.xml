@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">CorpsIdeal</string>
+    <!--************Interface connexion*****************-->
+    <string name="btn_cnx">Connexion</string>
+    <string name="edittxt_login">Pseudo </string>
+    <string name="edittxt_pass">Mot de passe</string>
+    <string name="check_sevenir">Se souvenir de moi</string>
+
+    <!--************Interface Inscription*****************-->
+    <string name="edittxt_confirmpass">Confirmer Mot de passe</string>
+    <string name="edittxt_nom">Nom</string>
+    <string name="edittxt_prenom">Prénom</string>
+    <string name="edittxt_email">E-mail</string>
+    <string name="btn_inscri">Inscription</string>
+
+    <!--************Interface Indice corporelle*****************-->
+    <string name="taille">Taille</string>
+    <string name="poids">Poids</string>
+    <string name="age">Age</string>
+    <string name="homme">Homme</string>
+    <string name="femme">Femme</string>
+    <string name="IMC">IMC</string>
+    <string name="IMg">IMG</string>
+    <string name="rslt">Résultat</string>
+
+    <!--************Interface Menu*****************-->
+    <string name="btn_entrainer">Entrainement</string>
+    <string name="btn_regime">Régime Alimentaire</string>
+    <string name="btn_caract">Indice Corporelle</string>
+    <string name="btn_achat">Achat en ligne</string>
+    <string name="btn_event">Evénément</string>
+    <string name="btn_act">Actualité</string>
+    <string name="btn_salle">Salle de sport</string>
+    <string name="btn_charge">Charge financiére</string>
+
+    <!--************Action bar*****************-->
+    <string name="title_home">Home</string>
+
+    <!--************Interface Detail *****************-->
+    <string name="titre">Titre</string>
+    <string name="date">Date</string>
+    <string name="description">Description</string>
+    <string name="organiseur">Organiseur</string>
+    <string name="heure">Heure</string>
+    <string name="adresse">Adresse</string>
+    <string name="reference">Référence</string>
+    <string name="type">Type</string>
+    <string name="delai">Délai</string>
+    <string name="frequence">Fréquence</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

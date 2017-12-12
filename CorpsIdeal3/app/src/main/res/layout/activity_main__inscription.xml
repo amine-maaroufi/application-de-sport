@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.allah.corpsideal.Main_Inscription"
+    android:background="@drawable/interface_backgound">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til__nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_weight="22"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <EditText
+
+            android:imeOptions="actionNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nom_insc"
+            android:hint="@string/edittxt_nom"
+            android:gravity="center" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_prenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="22"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp">
+        <EditText
+            android:imeOptions="actionNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/prenom_insc"
+            android:hint="@string/edittxt_prenom"
+            android:gravity="center"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="22"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <EditText
+
+            android:imeOptions="actionNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email_insc"
+            android:hint="@string/edittxt_email"
+            android:gravity="center"
+            android:foregroundGravity="left|center_vertical"
+            android:inputType="textEmailAddress" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_pseudo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="22"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp">
+
+        <EditText
+
+            android:imeOptions="actionNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pseudo_insc"
+            android:hint="@string/edittxt_login"
+            android:gravity="center"
+            android:foregroundGravity="left|center_vertical" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="22"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+        <EditText
+            android:imeOptions="actionNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pass_insc"
+            android:hint="@string/edittxt_pass"
+            android:gravity="center"
+            android:inputType="textPassword" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_confirm_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="22"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp">
+        <EditText
+            android:imeOptions="actionNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/confirm_pass_insc"
+            android:hint="@string/edittxt_confirmpass"
+            android:gravity="center"
+            android:inputType="textPassword"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/btn_inscri"
+        android:id="@+id/btn_inscri"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#FFF675"
+        android:shadowRadius="10"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginBottom="25dp"
+        android:onClick="onSignUpClick"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" />
+
+</LinearLayout>

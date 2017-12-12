@@ -1,0 +1,130 @@
+body{
+	padding:0; margin:0;
+	}
+.content_globale_authant{
+	
+	background:#FFFFFF; 
+	padding:0 auto 0 auto;
+}
+.cont_aut_cms {
+	width:484px;
+	height:319px;
+	padding:70px 0 0 0;
+	margin:150px auto 0 400px;
+	background:url(../images/aut_cms.png) no-repeat; 
+}
+.corp_auth { 
+	
+}
+
+.content_auth { 
+    margin:0 0 0 200px;
+	width:250px;
+	height:151px;
+}
+
+ 
+.msg_erreur {
+	font:bold 12px Arial, Helvetica, sans-serif;
+	color:#CC0000;
+	text-align:center;
+	height:46px;
+	padding:0;
+	margin:0;
+}
+
+.partie_erreur {
+margin:15px 0 0 0;
+	font:bold 12px Arial, Helvetica, sans-serif; 
+	color:#CC0000;
+	text-align:center;
+	height:20px;
+}
+.partie_chargement {
+margin:15px 0 0 0;
+	font:bold 12px Arial, Helvetica, sans-serif; 
+	color:#333333;
+	text-align:center;
+	height:20px;
+}
+.ligne_form {
+	overflow:hidden;
+	height:25px;
+	padding:0 0 0 0;
+	margin:7px 0 0 0;
+}
+
+.debu_form {
+	float:left;
+	width:11px;
+	height:25px;
+	background:url(../images/debu_form.jpg) no-repeat;
+}
+
+.form {	
+	float:left;
+	width:202px;
+	height:25px;
+	background:#FFFFFF;
+	color:#7c7e80;
+}
+.login{
+width:400px;
+	height:21px;
+	float:left;
+	font:bold 12px Tahoma ;
+
+}
+.imp {
+width:200px;
+height:20px;
+border-bottom:1px solid #FFFFFF;
+border-top:1px solid #FFFFFF;
+border-left:1px solid #FFFFFF;
+border-right:1px solid #FFFFFF;
+}
+.imp1 {
+	width:120px;
+	height:21px;
+	border:0px #FFFFFF;
+
+	font:12px Arial, Helvetica, sans-serif;
+}
+.fin_form {
+	float:left;
+	width:35px;
+	height:25px;
+	background:url(../images/fin_form.jpg) no-repeat;
+}
+
+.cont_bt { 
+    margin:10px 0 0 0;
+	height:25px;
+}
+
+.btt_aut {
+	width:82px;
+	height:21px;
+	float:right;
+	border:0px;
+	font:bold 11px Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	background:url(../images/bt_valider.jpg) no-repeat;
+	cursor:pointer;
+	
+	/*border-bottom:1px solid #FFFFFF;
+border-top:1px solid #FFFFFF;
+border-left:1px solid #FFFFFF;
+border-right:1px solid #FFFFFF;*/
+}
+.copy {
+    margin:25px 0 0 0;
+	font:bold 11px Arial, Helvetica, sans-serif;
+	color:#7c7e80;
+	text-decoration:none;
+}
+.copy a {
+	font:bold 11px Arial, Helvetica, sans-serif;
+	color:#7c7e80;
+	text-decoration:none;
+}

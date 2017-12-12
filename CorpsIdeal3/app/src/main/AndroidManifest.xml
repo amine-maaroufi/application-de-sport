@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.allah.corpsideal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Index">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main_Abdominaux" />
+        <activity android:name=".Main_Avant_bras" />
+        <activity android:name=".Main_Biceps" />
+        <activity android:name=".Main_Cou" />
+        <activity android:name=".Main_Dorsaux" />
+        <activity android:name=".Main_Epaule" />
+        <activity android:name=".Main_Fessiers" />
+        <activity android:name=".Main_Lombaire" />
+        <activity android:name=".Main_Mollet" />
+        <activity android:name=".Main_Pectoraux" />
+        <activity android:name=".Main_Quadriceps" />
+        <activity android:name=".Main_Triceps" />
+        <activity android:name=".Main_Oblique" />
+        <activity android:name=".Profil_avant_bras" />
+        <activity android:name=".Main_Connexion" />
+        <activity android:name=".Main_Corps_Humain" />
+        <activity android:name=".Main_Corps_Humain_2" />
+        <activity android:name=".Main_profil_abdominaux" />
+        <activity android:name=".Main_profil_biceps" />
+        <activity android:name=".Main_profil_triceps" />
+        <activity android:name=".Main_profil_quadriceps" />
+        <activity android:name=".Main_profil_cou" />
+        <activity android:name=".Main_profil_dorsaux" />
+        <activity android:name=".Main_profil_epaule" />
+        <activity android:name=".Main_profil_fessiers" />
+        <activity android:name=".Main_profil_lombaire" />
+        <activity android:name=".Main_profil_mollet" />
+        <activity android:name=".Main_profil_oblique" />
+        <activity android:name=".Main_profil_pectoraux" />
+        <activity android:name=".Main_salleDe_sport" />
+        <activity android:name=".Main_actualite" />
+        <activity android:name=".Main_evenement" />
+        <activity android:name=".Main_charge_financiere" />
+        <activity android:name=".Main_caraterestiques_corporelle" />
+        <activity android:name=".Main_achat_en_ligne" />
+        <activity android:name=".Main_Inscription" />
+        <activity android:name=".Main_Menu" />
+        <activity android:name=".ActualiteDetailActivity" />
+        <activity android:name=".EvenementDetailActivity" />
+        <activity android:name=".RecetteDetailActivity" />
+        <activity android:name=".AchatDetailActivity" />
+        <activity android:name=".Main_recette" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".SuivreCaracteres" />
+    </application>
+
+</manifest>

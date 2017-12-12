@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.allah.corpsideal.Main_Menu">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:background="@drawable/logo_background" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/btn_entrainer"
+        android:id="@+id/btn_entrainer"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#FFF675"
+        android:shadowRadius="10"
+        android:drawableBottom="@drawable/logo_exercice"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@string/btn_regime"
+            android:id="@+id/btn_regime"
+            android:layout_weight="1"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#FFF675"
+            android:shadowRadius="10"
+            android:layout_marginRight="5dp"
+            android:drawableBottom="@drawable/logo_regime"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="8dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@string/btn_caract"
+            android:id="@+id/btn_caract"
+            android:layout_weight="1"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#FFF675"
+            android:shadowRadius="10"
+            android:layout_marginLeft="5dp"
+            android:drawableBottom="@drawable/logo_caractr"
+            android:textColor="#ffffff"
+            android:layout_marginRight="8dp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/btn_charge"
+        android:id="@+id/btn_charge"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#FFF675"
+        android:shadowRadius="10"
+        android:layout_marginTop="10dp"
+        android:drawableBottom="@drawable/logo_charg"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@string/btn_event"
+            android:id="@+id/btn_event"
+            android:layout_weight="1"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#FFF675"
+            android:shadowRadius="10"
+            android:layout_marginRight="5dp"
+            android:drawableBottom="@drawable/logo_event"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="8dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@string/btn_act"
+            android:id="@+id/btn_act"
+            android:layout_weight="1"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#FFF675"
+            android:shadowRadius="10"
+            android:layout_marginLeft="5dp"
+            android:drawableBottom="@drawable/logo_actualite"
+            android:textColor="#ffffff"
+            android:layout_marginRight="8dp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/btn_salle"
+        android:id="@+id/btn_salle"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#FFF675"
+        android:shadowRadius="10"
+        android:layout_marginTop="10dp"
+        android:foregroundGravity="center_vertical|right"
+        android:drawableBottom="@drawable/logo_map"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/btn_achat"
+        android:id="@+id/btn_achat"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#FFF675"
+        android:shadowRadius="10"
+        android:drawableBottom="@drawable/logo_achat"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

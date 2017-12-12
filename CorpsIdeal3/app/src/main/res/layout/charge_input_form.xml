@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTexttitreProduit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom de produit"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextQuantite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantité"
+        android:inputType="number"
+        android:singleLine="true">
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextPrixProduit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prix"
+        android:inputType="number"
+        android:singleLine="true">
+        <requestFocus />
+
+    </EditText>
+
+</LinearLayout>
